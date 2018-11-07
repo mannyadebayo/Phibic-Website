@@ -1,0 +1,195 @@
+html, body{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #494949;
+  text-transform: uppercase;
+}
+/* NAVIGATION */
+.navbar{
+  background-color: white;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+  color: #002f43;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+  color: #004b6a;
+}
+
+#home{
+  background: url('back.jpg') center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.landing-text h1{
+  font-size: 350%;
+  font-weight: 700;
+  color: white;
+  z-index: 2;
+
+}
+.landing-text h3{
+  color: white;
+}
+.padding{
+  padding: 80px 0;
+}
+.padding img{
+  width: 100%;
+}
+#fixed{
+  background: url('2.JPG') no-repeat center center fixed;
+  display: table;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+#fixed h4{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 200px;
+}
+.row p{
+  color: #002f43;
+
+}
+
+/* OUR SERVICES */
+
+.service1{
+    display: inline-block;
+    width: 298px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    vertical-align: middle;
+    /*float: left; */
+}
+
+.service1 > p{
+    font-size: 14px;
+    color: #636363;
+    max-width: 250px;
+}
+
+.services {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service1 h1{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c1c1c1;
+    color: #002f43;
+    padding: 10px 0;
+    margin: 0 -6px;
+}
+
+.image{
+    max-width: 200px;
+    margin: 15px 0 0 0;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: #002f43;
+    margin: 0 0 20px 0;
+}
+
+.image:hover{
+    opacity: 0.8;
+    max-width: 200px;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px){
+    .services {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    }
+}
+
+
+
+/* FOOTER */
+footer{
+  width: 100%;
+  background-color: black;
+  padding: 5% 5% 10% 5%;
+  color: #FFF;
+}
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  color: #FFF;
+}
+.fa:hover{
+  color: #dfdfdf;
+  text-decoration: none;
+}
+.icon{
+  max-width: 150px;
+}
+
+@media (max-width: 768px){
+  .landing-text h1{
+    font-size: 200%
+  }
+  .landing-text h3{
+    font-size: 18px;
+  }
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon{
+    padding-top: 5%;
+    max-width: 100px;
+  }
+}
+.design{
+  background-color: black;
+  padding: 0px 0px 12px 0px;
+}
+.design h5{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+.design p{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.design a{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  text-transform: none;
+}
+/* END FOOTER */
